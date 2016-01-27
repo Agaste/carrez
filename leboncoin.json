@@ -10,5 +10,6 @@
 		"property_type":{"type":"string"},
 		"rooms":{"type":"integer"},
 		"surface":{"type":"integer"}
-	}
+	},
+	"required":["url","price","zip_code","surface"]
 }

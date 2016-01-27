@@ -1,0 +1,15 @@
+{
+	"title":"Meilleursagents",
+	"type":"object",
+	"property_used":
+		{
+			"zip_code":{"type":"integer"}
+		},
+	"property_recup":
+		{
+			"average_price_flat":{"type":"integer"},
+			"average_price_house":{"type":"integer"},
+			"average_price_rental":{"type":"integer"}
+		},
+	"required":["zip_code","average_price_flat","average_price_house","average_price_rental"]
+}

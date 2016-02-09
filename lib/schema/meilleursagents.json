@@ -1,0 +1,24 @@
+{
+	"title":"Meilleursagents",
+	"type":"object",
+	"property_used":
+		{
+			"zip_code":{"type":"integer"},
+			"cityName":{"type":"string"}
+		},
+	"property_recup":
+		{
+			"average_price_flat":{"type":"integer"},
+			"average_price_house":{"type":"integer"},
+			"average_price_rental":{"type":"integer"},
+			"good_deal":{"type":"boolean"},
+
+			"price" : {
+				"average_price":{"type":"integer"},
+				"min_price":{"type":"integer"},
+				"max_price":{"type":"integer"},
+				"square_meter_price":{"type":"integer"}				
+			}
+		},
+	"required":["zip_code","cityName","average_price_flat","average_price_house","average_price_rental","good_deal"]
+}

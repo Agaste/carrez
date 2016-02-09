@@ -1,0 +1,28 @@
+{
+    "title": "Meilleursagents",
+    "type": "object",
+    "property_used": {
+        "zip_code": "94110",
+        "cityName": "Arcueil"
+    },
+    "property_recup": {
+        "average_price_flat": "4152",
+        "average_price_house": "4440",
+        "average_price_rental": "17.8",
+        "good_deal": true,
+        "price": {
+            "average_price": "4152",
+            "min_price": "3114",
+            "max_price": "6229",
+            "square_meter_price": 5300
+        }
+    },
+    "required": [
+        "zip_code",
+        "cityName",
+        "average_price_flat",
+        "average_price_house",
+        "average_price_rental",
+        "good_deal"
+    ]
+}

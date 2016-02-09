@@ -1,0 +1,9 @@
+The user has to find a real estate ad' URL on Leboncoin.fr.
+Then the user can copy and paste this URL in the field text.
+He has to click on the compute button.
+Most of the work is done on a background basis.
+The App is finally showing some information concerning the real estate ad the user found.
+The App is especially furnishing an overall advice concerning the price of the real estate ad
+(good or bad price concerning the price per square meter). The App could also show other
+information such as the minimum price per square meter in this area and the maximum price 
+per square meter in this area.
